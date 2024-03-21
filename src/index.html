@@ -5,6 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css" rel="stylesheet">
+
     <link rel="stylesheet" href="./style/styles.css">
 </head>
 <body>
@@ -14,10 +17,36 @@
         window.app = appInstance;
 
     </script>
+    
+    <nav class="navbar navbar-light bg-light">
+        <button id="buttonToggle" class="navbar-toggler" type="button">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="#">EtecZl</a>
+        <div id="installPwaWebAPP"></div>
+        <div id="user_identification_div" class="d-flex">
+          <i class="bi bi-person-circle"></i>
+          <a class="nav-link" href="#">User Name</a>
+        </div>
+      </nav>
+    
+      <div id="menuDrawer" class="drawer container border border-primary-subtle rounded-end">
+        <ul class="list-group">
+            <li class="list-group-item">Item 1</li>
+            <li class="list-group-item">Item 2</li>
+            <li class="list-group-item">Item 3</li>
+            <!-- Adicione mais itens conforme necessário -->
+          </ul>
 
-    <button id="buttonToggle" type="button" >teste</button>
-    <div  id="menuDrawer">
-        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam error provident mollitia quo quas est ipsum at aperiam aliquid quam! Facilis consequuntur ipsam commodi qui eos debitis labore molestiae dolorem?</p>
-    </div>
+      </div>
+    
+      <div class="container">
+        <h1>Catracas EtecZL</h1>
+        <p>Controle de Acesso: Catracas EtecZL.</p>
+      </div>
+    
+     
+     
+    
     </body>
 </html>
